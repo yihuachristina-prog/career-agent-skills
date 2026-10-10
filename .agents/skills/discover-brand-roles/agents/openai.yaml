@@ -1,0 +1,4 @@
+interface:
+  display_name: "品牌职位雷达"
+  short_description: "双模式扫描七类来源、收藏岗位并自动深评审阅稿"
+  default_prompt: "使用 $discover-brand-roles 按登录态或无人值守模式扫描七类来源及收藏岗位，更新唯一台账，自动深评并为Apply–P1/P2维护唯一Word审阅稿。"

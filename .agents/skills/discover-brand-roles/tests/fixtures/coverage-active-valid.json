@@ -1,0 +1,13 @@
+{
+  "mode": "active",
+  "sources": [
+    {"source": "脉脉", "status": "已登录深扫", "favorites_visible": 3, "favorites_checked": 3, "search_completed": true},
+    {"source": "猎聘", "status": "已登录深扫", "favorites_visible": 5, "favorites_checked": 5, "search_completed": true},
+    {"source": "BOSS直聘", "status": "已登录深扫", "favorites_visible": 4, "favorites_checked": 4, "search_completed": true},
+    {"source": "51job", "status": "已登录深扫", "favorites_visible": 2, "favorites_checked": 2, "search_completed": true},
+    {"source": "智联招聘", "status": "页面受限", "favorites_visible": 0, "favorites_checked": 0, "search_completed": false},
+    {"source": "LinkedIn", "status": "已登录深扫", "favorites_visible": 6, "favorites_checked": 6, "search_completed": true},
+    {"source": "企业官网", "status": "公开搜索", "favorites_visible": 0, "favorites_checked": 0, "search_completed": true}
+  ],
+  "external_mutations": []
+}

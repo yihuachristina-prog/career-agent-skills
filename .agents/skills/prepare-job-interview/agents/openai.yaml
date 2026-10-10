@@ -1,0 +1,11 @@
+interface:
+  display_name: "\u5B9A\u5411\u9762\u8BD5\u51C6\u5907"
+  short_description: "逐项拆解最终简历，准备分轮面试答案、追问和练习"
+  default_prompt: "用 $prepare-job-interview 根据最终简历准备八模块面试包，拆解各轮考察并生成口述答案与追问。"
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

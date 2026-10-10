@@ -1,0 +1,19 @@
+# Private workspaces and local state
+data/
+private/
+users/
+workspace/
+career-private-handoff/
+*.zip
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pdf
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+node_modules/

@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-10",
+  "scope": "export structure and parameter regressions only; no live career run",
+  "checks": [
+    {
+      "name": "skill-structure:run-job-search-pipeline",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "skill-structure:discover-brand-roles",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "skill-structure:tailor-job-application",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "skill-structure:prepare-job-interview",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "skill-structure:productize-skills",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "all-python-syntax",
+      "passed": true
+    },
+    {
+      "name": "explicit-salary-profile",
+      "passed": true
+    },
+    {
+      "name": "unknown-salary-months",
+      "passed": true
+    },
+    {
+      "name": "missing-profile-rejected",
+      "passed": true
+    },
+    {
+      "name": "coverage:coverage-active-valid.json",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "coverage:coverage-invalid.json",
+      "passed": true,
+      "detail": [
+        "存在范围外来源: 58同城",
+        "脉脉: 登录态深扫未复核全部可见收藏",
+        "猎聘: 未完成搜索不能写无结果",
+        "检测到招聘平台外部写操作: 取消收藏"
+      ]
+    },
+    {
+      "name": "coverage:coverage-unattended-valid.json",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "configured-candidate-divider",
+      "passed": true
+    },
+    {
+      "name": "configured-project-in-summary",
+      "passed": true
+    },
+    {
+      "name": "markdown-relative-links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "personal-data-and-secret-pattern-scan",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "master-files-unchanged",
+      "passed": true
+    }
+  ]
+}
