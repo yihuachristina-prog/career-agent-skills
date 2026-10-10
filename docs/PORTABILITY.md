@@ -36,4 +36,4 @@ python .agents/skills/tailor-job-application/scripts/audit_resume_delivery.py re
 
 同一用户同一主库采用单写者；写前核对新鲜哈希，先暂存后窄范围合并、回读和验收。跨 agent 交接只迁移必要数据和明确状态。换用户时不要继承账号、授权、个人阈值或本地路径。
 
-本包不实现后台调度、账号管理或服务端租户隔离。需要这些功能时按 productize-skills 开发；不要把目录约定宣传为已完成多用户系统。
+本包不实现后台调度、账号管理或服务端租户隔离。需要开发这些功能时，可按需使用独立的 [productize-skills 仓库](https://github.com/yihuachristina-prog/productize-skills)；该流程已从本仓库迁出，不是普通求职任务的安装依赖。不要把目录约定宣传为已完成多用户系统。

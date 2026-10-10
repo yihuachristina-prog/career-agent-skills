@@ -3,7 +3,7 @@
 先读 `docs/PORTABILITY.md`，识别本次是“接手某一用户的求职”，还是“继续开发通用 skills”。
 
 - 接手求职：读取该用户独立的交接包 `START_HERE.md`、主库、能力库和缺失清单，然后调用 `run-job-search-pipeline`。保留岗位/资产/证据 ID 和当前状态。
-- 开发 skills：先读取 `.agents/skills/productize-skills/SKILL.md`；开发规范来自 `vendor/skill-creator/SKILL.md`。原用户历史授权不适用于新用户。
+- 开发 skills：通用开发流程已迁移到独立的 [productize-skills 仓库](https://github.com/yihuachristina-prog/productize-skills)，按需读取其入口与安装说明；本仓库不再内置该 Skill。`vendor/skill-creator/SKILL.md` 保留为可选的结构校验与开发规范工具。普通求职任务只需要四个职业 Skill，原用户历史授权不适用于新用户。
 - 只分析一个 JD：调用 `tailor-job-application`，按限定范围完成，不自动扩展为完整求职流程。
 - 没有个人交接包：从 `examples/user-profile.template.md` 收集必要输入。不要从本仓库推断候选人事实。
 
